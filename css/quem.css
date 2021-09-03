@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Besley:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;500&display=swap");
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.inicio {
+  width: 98.82vw;
+  height: 100vh;
+  background-color: #4D4D4D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Berkshire Swash", cursive;
+  font-size: 36px;
+  color: white;
+}
+
+.conteudo {
+  height: 100vh;
+}
+
+h1 {
+  margin-top: 100px;
+  font-family: "Besley", serif;
+  padding: 20px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  margin: auto;
+  color: #3D4D42;
+}
+
+h2{
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  margin: auto;
+  color: #3D4D42;
+}
+
+h6{
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: medium;
+  text-align: center;
+  margin: auto;
+  color: #3D4D42;
+}
+
+.pessoa{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.entrevistados{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
